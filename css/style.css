@@ -1,0 +1,114 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.shoe-card, .home-card {
+    border: 0;
+}
+
+.shoe-card-footer {
+    background-color: white;
+    border: 0;
+}
+
+.categories img {
+    width: 100px;
+  }
+
+ .button {
+    display: inline-block;
+    margin-left: 150px;
+
+} 
+
+span{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(223,137,0);
+    margin-right: auto;
+    
+}
+
+.img-col img {
+    width: 40%;
+    margin: 20px;
+    
+}
+.bd-highlight {
+    border: 0;
+}
+
+.contact-card {
+    flex: auto;
+    border-radius: 5px;
+}
+
+
+
+.img-size-2 {
+    width: 20px;
+}
+
+header, .navbar, .home-card {background-color:  #fceae8;
+width: 100%;}
+
+h5 {
+    color: maroon;
+}
+ul li{
+    list-style: none;
+}
+
+
+
+
+/*=================================================
+    
+                Bootstrap 5 Media Queries
+
+===============================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+
+   span {
+       font-size: 20px;
+       margin-right: auto;
+   }
+
+   .img-col img {
+    width: 28%;
+    margin-top: 10px;
+
+    
+}
+    
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+  span{
+      font-size: 15px;
+      margin-right: 0;
+  }
+  .img-col img {
+    width: 28%;
+    margin: 5px;
+
+    
+}
+}
+/* Extra Small Devices (Landscape phone & Portrait Tablets) */
+@media (max-width: 575.98px) {
+    
+    span{
+        font-size: 15px;
+        margin-right: 0;}
+    .img-col img {
+        width: 28%;
+        margin: 0px 125px 0px 125px;
+        
+    }
+}
+
